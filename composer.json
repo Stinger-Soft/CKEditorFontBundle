@@ -1,0 +1,35 @@
+{
+	"name" : "stinger/ckeditor-font-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Symfony2 Bundle to integrate the CKEditor plugin Font",
+	"keywords" : [
+		"ckeditor",
+		"font",
+		"symfony"
+	],
+	"homepage" : "http://ckeditor.com/addon/font",
+	"license" : [
+		"LGPL-3.0",
+		"GPL-3.0",
+		"MPL"
+	],
+	"authors" : [{
+			"name" : "Florian Meyer",
+			"email" : "florian.meyer@stinger-soft.net",
+			"homepage" : "http://www.stinger-soft.net"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.1",
+		"stinger/ckeditor-widget-bundle" : "4.5.1"
+	},
+	"suggest" : {
+		"Trsteel/ckeditor-bundle" : "The CKEditor Bundle we're using ;)"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Stinger\\CKEditorFontBundle" : ""
+		}
+	},
+	"target-dir" : "Stinger/CKEditorFontBundle"
+}
